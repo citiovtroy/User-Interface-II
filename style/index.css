@@ -60,6 +60,7 @@ nav a{
     text-decoration:none;
     padding:20px;
     text-align: center;
+    color:grey;
     
 }
 nav a:hover{
@@ -71,7 +72,6 @@ nav a:hover{
     justify-content: space-around;
     background-color:pink;
     margin:22px 0 0 0;
-    border-bottom:2px solid #FFFF99;
     
 }
 .yimg{
@@ -100,13 +100,38 @@ nav a:hover{
     flex-direction: row;
     justify-content: space-around;
     background-color: #FFFF99;
-    border-top:2px solid pink;
     
+    
+}
+#myProjectsParent{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:20px;
+    background-color:powderblue;
+}
+.myProjects{
+    border:2px double pink;
+    padding:10px;
+    text-decoration: none;
+    color:grey;
+}
+.myProjects:hover{
+    background-color:#FFFF99;
+    transition:2s;
 }
 
 .footerParent{
     display:flex;
     justify-content: center;
     background-color:#FFFF99;
-    padding:40px;
+    padding:23px;
+}
+.socialLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#FFFF99;
+    padding: 2%;
+    
 }
