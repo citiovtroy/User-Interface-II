@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 *{
-    background-color:pink;
+    background-color:#FFFF99;
 
 }
 #h1{
@@ -65,19 +65,9 @@ nav a{
     
 }
 nav a:hover{
-    background-color:powderblue;
+    background-color:pink;
     transition: 2s;
 
-}
-.loremContent{
-    display: flex;
-    justify-content: center;
-}
-.lorem{
-    text-align:center;
-    width:500px;
-    padding: 2%;
-    margin:60px 0 0 0;
 }
 .footerParent{
     display:flex;
@@ -89,5 +79,28 @@ nav a:hover{
     flex-direction: row;
     justify-content: center;
     padding: 2%;
+    
+}
+.gallery-1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: powderblue;
+    margin:22px 0 0 0;
+
+}
+.gblock-1{
+    width: 30%;
+    height:700px;
+    object-fit: cover;
+    object-position: top;
+    
+}
+.gallery-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFFF99;
+    
     
 }
