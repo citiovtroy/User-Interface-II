@@ -42,7 +42,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*{
+    background-color:powderblue;
+}
 #h1{
     font-size:2.5rem;
     display:flex;
@@ -64,74 +66,20 @@ nav a{
     
 }
 nav a:hover{
-    background-color:pink;
+    background-color:#FFFF99;
     transition: 2s;
 }
-.img{
-    display: flex;
-    justify-content: space-around;
-    background-color:pink;
-    margin:22px 0 0 0;
-    
-}
-.yimg{
-    width: 80%;
-    height:600px;
-    object-fit: cover;
-    object-position: top;
-    
-}
-.gallery-1{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: powderblue;
-
-}
-.gblock-1{
-    width: 30%;
-    height:700px;
-    object-fit: cover;
-    object-position: top;
-    
-}
-.gallery-2{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #FFFF99;
-    
-    
-}
-#myProjectsParent{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    padding:20px;
-    background-color:powderblue;
-}
-.myProjects{
-    border:2px double pink;
-    padding:10px;
-    text-decoration: none;
-    color:grey;
-}
-.myProjects:hover{
-    background-color:#FFFF99;
-    transition:2s;
-}
-
 .footerParent{
     display:flex;
     justify-content: center;
-    background-color:#FFFF99;
+    background-color:powderblue;
     padding:23px;
 }
 .socialLinks{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color:#FFFF99;
+    background-color:powderblue;
     padding: 2%;
     
 }
