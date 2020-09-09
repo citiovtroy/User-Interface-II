@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -137,7 +137,17 @@ nav a:hover{
 }
 
 @media(max-width:800px){
-    body{
-        background:red;
+    #h1{
+        width: 70%;
+        margin:50px 0 -100px 0;
+        display: flex;
+        justify-content: space-between;
+        
     }
+
+    nav a{
+        display: flex;
+        justify-content:center;
+    };
+    
 }
